@@ -98,6 +98,7 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 #footer-con full{
     height: 100px;
     margin-top: 150px;
+    align-self: center;
 }
 
 #footer-nav{
