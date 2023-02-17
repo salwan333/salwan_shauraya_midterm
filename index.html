@@ -1,67 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Protype midterm</title>
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-</head>
-<body>
-    <h1 class="hidden"></h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BILLY BEER</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+  <body>
+    <div class="grid-container bottom-border">
+      <div>
+        <a href="index.html"><img src="img/logojpg.jpg" alt="logo" class="logo"/></a>
+      </div>
+      <div>
+        <a class="lnk" href="index.html" ><span class="l-txt">BILLY BEER</span></a>
+      </div>
+      <div class="t-l-space">
+        <a class="btn-info" href="gallery.html">GALLERY</a>
+        <a class="btn-danger" href="#history">HISTORY</a>
+        <a class="btn-danger" href="#cnt">CONTACT</a>
+        <a href="gallery.html#cart"><i class="fa fa-shopping-cart space-left-right" aria-hidden="true"></i></a>
+        <i class="fa fa-search space-left-right" aria-hidden="true"></i>
+      </div>
+    </div>
     <div class="container">
-
-
-        <main>
-            <section id="hero" class="grid">
-                <img src="https://via.placeholder.com.com/1170X400/000000/ffffff" alt="" class="hero-image">
-                <div id="buy-now" class="box-color2"></div>
-                <div id="tag-line" class="box-color2"></div>
-                <h2></h2>
-            </section>
-
-            <section id="features-con" class="grid">
-                <h2 class="hidden">photon-featurre</h2>
-                <section class="feature box-color">
-                    <h3></h3>
-                </section>
-                <section class="feature box-color">
-                    <h3></h3>
-                </section>
-                <section class="feature box-color">
-                    <h3></h3>
-                </section>
-
-            </section>
-
-
-            <section id="features-con" class="grid">
-                <h2 class="hidden">photon-featurre</h2>
-                <section class="feature box-color">
-                    <h3></h3>
-                </section>
-                <section class="feature box-color">
-                    <h3></h3>
-                </section>
-                <section class="feature box-color">
-                    <h3></h3>
-                </section>
-
-            </section>
-        </main>
+      <img class="img-slider" src="img/7.jpeg" alt="slider photo"/>
     </div>
-
-
-    <div id="footer-con full" class="box-color">
-        <div class="container">
-            <footer class="grid">
-                <nav id="footer-nav" class="box-color2">
-                    <h2 class="hidden"></h2>
-                </nav>
-            </footer>
-
-        </div>
-
+    <div id="history" class="center-heading"><b>OUR HISTORY</b></div>
+    <div class="grid-container">
+      <p class="txt">
+        Billy Beer is a brand of beer first made in the United States in July
+        1977, by the Falls City Brewing Company. It was promoted by Billy
+        Carter, whose older brother Jimmy was then the President of the United
+        States. In October 1978, Falls City announced that it was closing after
+        less than a year of Carter's promotion
+      </p>
     </div>
+    <div id="cnt" class="center-heading"><b>CONTACT</b></div>
+    <div class="grid-container">
+      <div class="contact-info">
+        <p class="mt-max">LONDOND@GMAIL.COM MOBILE NO:848580383389</p>
+      </div>
+      <div class="contact-box">
+        <br/>
+        <input placeholder="NAME" class="inpt" type="text" /><br />
+        <input placeholder="EMAIL" class="inpt" type="email" /><br />
+        <textarea class="txt-area" name="note" id="note" rows="10" cols="30"></textarea><br/>
+        <input class="btn-info-lg" type="submit" name="submit" value="SUBMIT" />
+      </div>
+      <br />
+      <div>
+        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <br/>
+    <br/>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>

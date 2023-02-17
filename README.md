@@ -14,6 +14,7 @@ TODO: Write a project description
 2. added html and css
 3. did some changes in css
 4. layout changed 
+5. fixed bugs
 
 
 ## Credits
